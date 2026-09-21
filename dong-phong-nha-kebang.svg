@@ -1,0 +1,73 @@
+<svg viewBox="0 0 480 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pnTitle">
+  <title id="pnTitle">Minh họa hang động Phong Nha, dòng sông ngầm, thuyền và ánh sáng xuyên hang</title>
+  <defs>
+    <linearGradient id="pnSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CDE7DC"/>
+      <stop offset="100%" stop-color="#F7F1E4"/>
+    </linearGradient>
+    <radialGradient id="cavelight" cx="50%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#FFE9B8" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1B2A4A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#pnSky)"/>
+
+  <!-- distant karst mountains, layered for depth -->
+  <g fill="#2F5D50" opacity="0.3">
+    <polygon points="0,200 50,140 100,200"/>
+    <polygon points="360,205 420,135 480,205"/>
+  </g>
+  <g fill="#2F5D50" opacity="0.5">
+    <polygon points="0,190 60,120 120,190"/>
+    <polygon points="90,195 150,110 220,195"/>
+    <polygon points="330,195 390,115 460,195"/>
+  </g>
+  <!-- mist at mountain base -->
+  <g fill="#FFFFFF" opacity="0.5">
+    <ellipse cx="60" cy="192" rx="50" ry="8"/>
+    <ellipse cx="400" cy="196" rx="55" ry="8"/>
+  </g>
+
+  <!-- birds over the karst -->
+  <g stroke="#2F5D50" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M330 90 q6 -6 12 0 q6 -6 12 0"/>
+  </g>
+
+  <!-- cave mouth -->
+  <path d="M60 340 C60 180 200 130 240 130 C280 130 420 180 420 340 Z" fill="#141F38"/>
+  <path d="M60 340 C60 180 200 130 240 130 C280 130 420 180 420 340 Z" fill="url(#cavelight)"/>
+
+  <!-- light shafts -->
+  <g fill="#FFE9B8" opacity="0.25">
+    <polygon points="200,140 230,140 175,300 145,300"/>
+    <polygon points="260,140 285,140 335,300 305,300"/>
+  </g>
+
+  <!-- stalactites, more varied -->
+  <g fill="#33456B">
+    <polygon points="150,150 160,150 155,195"/>
+    <polygon points="175,145 184,145 179,185"/>
+    <polygon points="200,135 212,135 206,190"/>
+    <polygon points="260,138 270,138 265,185"/>
+    <polygon points="285,148 294,148 289,188"/>
+    <polygon points="310,155 320,155 315,195"/>
+  </g>
+
+  <!-- underground river -->
+  <path d="M60 340 Q240 250 420 340 Z" fill="#2F5D50" opacity="0.85"/>
+  <g stroke="#DCEAE3" stroke-width="2" opacity="0.6">
+    <path d="M140 320 q30 -10 60 0" fill="none"/>
+    <path d="M260 310 q30 -10 60 0" fill="none"/>
+    <path d="M200 335 q30 -8 60 0" fill="none"/>
+  </g>
+  <!-- reflected light on water -->
+  <ellipse cx="240" cy="300" rx="60" ry="10" fill="#FFE9B8" opacity="0.3"/>
+
+  <!-- small boat with lantern light and two figures, typical of Phong Nha cave tours -->
+  <g transform="translate(240,300)">
+    <path d="M-30 10 Q0 -4 30 10 L24 20 L-24 20 Z" fill="#141F38"/>
+    <circle cx="0" cy="-8" r="10" fill="#F0B94A" opacity="0.9"/>
+    <circle cx="-10" cy="2" r="5" fill="#1B2A4A"/>
+    <circle cx="10" cy="2" r="5" fill="#1B2A4A"/>
+  </g>
+</svg>

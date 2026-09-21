@@ -1,0 +1,111 @@
+<svg viewBox="0 0 480 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hueTitle">
+  <title id="hueTitle">Minh họa Ngọ Môn, Hoàng thành Huế, có mây, chim và cờ tung bay</title>
+  <defs>
+    <linearGradient id="hueSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCEBC0"/>
+      <stop offset="60%" stop-color="#F7DFA8"/>
+      <stop offset="100%" stop-color="#E9D9AE"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFE3A8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#FFE3A8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="340" fill="url(#hueSky)"/>
+
+  <!-- sun with rays -->
+  <circle cx="410" cy="55" r="55" fill="url(#sunGlow)"/>
+  <circle cx="410" cy="55" r="22" fill="#F0B94A"/>
+
+  <!-- clouds -->
+  <g fill="#FFFDF8" opacity="0.85">
+    <ellipse cx="70" cy="55" rx="30" ry="12"/>
+    <ellipse cx="95" cy="48" rx="22" ry="10"/>
+    <ellipse cx="45" cy="48" rx="18" ry="9"/>
+    <ellipse cx="300" cy="35" rx="26" ry="10"/>
+    <ellipse cx="322" cy="30" rx="18" ry="8"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#7A2E2E" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M160 70 q6 -7 12 0 q6 -7 12 0"/>
+    <path d="M190 90 q5 -5 10 0 q5 -5 10 0"/>
+  </g>
+
+  <!-- moat -->
+  <rect x="0" y="270" width="480" height="70" fill="#2F5D50" opacity="0.4"/>
+  <g stroke="#2F5D50" stroke-width="2" opacity="0.45">
+    <path d="M20 300 q20 6 40 0 t40 0" fill="none"/>
+    <path d="M180 315 q20 6 40 0 t40 0" fill="none"/>
+    <path d="M340 295 q20 6 40 0 t40 0" fill="none"/>
+  </g>
+  <!-- lotus on moat -->
+  <g fill="#C4471F" opacity="0.85">
+    <circle cx="60" cy="305" r="5"/>
+    <circle cx="80" cy="310" r="4"/>
+    <circle cx="410" cy="300" r="5"/>
+  </g>
+  <g fill="#2F5D50">
+    <ellipse cx="60" cy="312" rx="10" ry="4"/>
+    <ellipse cx="80" cy="317" rx="8" ry="3"/>
+    <ellipse cx="410" cy="307" rx="10" ry="4"/>
+  </g>
+
+  <!-- base wall -->
+  <rect x="60" y="205" width="360" height="70" fill="#8A3535"/>
+  <rect x="60" y="205" width="360" height="12" fill="#5C1F1F"/>
+  <rect x="60" y="263" width="360" height="12" fill="#5C1F1F"/>
+  <!-- brick texture lines -->
+  <g stroke="#5C1F1F" stroke-width="1" opacity="0.5">
+    <line x1="60" y1="235" x2="420" y2="235"/>
+    <line x1="60" y1="250" x2="420" y2="250"/>
+  </g>
+
+  <!-- crenellations -->
+  <g fill="#8A3535">
+    <rect x="60" y="190" width="18" height="18"/>
+    <rect x="96" y="190" width="18" height="18"/>
+    <rect x="132" y="190" width="18" height="18"/>
+    <rect x="330" y="190" width="18" height="18"/>
+    <rect x="366" y="190" width="18" height="18"/>
+    <rect x="402" y="190" width="18" height="18"/>
+  </g>
+
+  <!-- central gate arches -->
+  <g fill="#FCEBC0">
+    <path d="M170 275 v-40 a20 20 0 0 1 40 0 v40 z"/>
+    <path d="M225 275 v-46 a24 24 0 0 1 48 0 v46 z"/>
+    <path d="M290 275 v-40 a20 20 0 0 1 40 0 v40 z"/>
+  </g>
+  <!-- tiny guard silhouettes at gate -->
+  <g fill="#3A2A2A" opacity="0.8">
+    <circle cx="245" cy="255" r="4"/>
+    <rect x="242" y="259" width="6" height="14"/>
+  </g>
+
+  <!-- upper pavilion -->
+  <rect x="150" y="140" width="180" height="55" fill="#D9A03C"/>
+  <rect x="150" y="140" width="180" height="8" fill="#8A3535"/>
+  <g fill="#F0B94A">
+    <rect x="170" y="155" width="16" height="30"/>
+    <rect x="200" y="155" width="16" height="30"/>
+    <rect x="230" y="155" width="16" height="30"/>
+    <rect x="260" y="155" width="16" height="30"/>
+    <rect x="290" y="155" width="16" height="30"/>
+  </g>
+
+  <!-- double roof -->
+  <polygon points="130,140 240,95 350,140" fill="#8A3535"/>
+  <polygon points="150,105 240,68 330,105" fill="#5C1F1F"/>
+  <circle cx="240" cy="66" r="7" fill="#F0B94A"/>
+  <path d="M225 68 q15 -14 30 0" stroke="#F0B94A" stroke-width="3" fill="none"/>
+  <!-- roof ridge dragon curls -->
+  <path d="M130 140 q-8 -6 -16 -2" stroke="#5C1F1F" stroke-width="3" fill="none"/>
+  <path d="M350 140 q8 -6 16 -2" stroke="#5C1F1F" stroke-width="3" fill="none"/>
+
+  <!-- flags fluttering -->
+  <line x1="100" y1="90" x2="100" y2="190" stroke="#5C1F1F" stroke-width="4"/>
+  <path d="M100 90 Q135 98 150 105 Q135 112 100 120 Z" fill="#8A3535"/>
+  <line x1="380" y1="90" x2="380" y2="190" stroke="#5C1F1F" stroke-width="4"/>
+  <path d="M380 90 Q345 98 330 105 Q345 112 380 120 Z" fill="#8A3535"/>
+</svg>

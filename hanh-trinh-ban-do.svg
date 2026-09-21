@@ -1,0 +1,35 @@
+<svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mapTitle">
+  <title id="mapTitle">Sơ đồ hành trình dọc dải đất miền Trung</title>
+  <rect width="480" height="420" fill="#FFFCF5"/>
+  <rect x="8" y="8" width="464" height="404" fill="none" stroke="#DCCBA6" stroke-width="1"/>
+
+  <!-- coastline curve as spine -->
+  <path d="M240 30 C 200 100, 260 150, 220 220 S 260 320, 230 390"
+        stroke="#2F5D50" stroke-width="3" fill="none" stroke-dasharray="1 10" stroke-linecap="round"/>
+
+  <!-- stop markers -->
+  <g font-family="Manrope, sans-serif" font-size="15" fill="#1B2A4A">
+    <circle cx="240" cy="30" r="8" fill="#7A2E2E"/>
+    <text x="258" y="35">Huế — Cố đô</text>
+
+    <circle cx="220" cy="150" r="8" fill="#E2992F"/>
+    <text x="238" y="155">Đà Nẵng — Biển &amp; cầu</text>
+
+    <circle cx="248" cy="230" r="8" fill="#C4471F"/>
+    <text x="266" y="235">Hội An — Phố cổ</text>
+
+    <circle cx="222" cy="320" r="8" fill="#33456B"/>
+    <text x="240" y="325">Phong Nha — Hang động</text>
+
+    <circle cx="230" cy="390" r="8" fill="#2F5D50"/>
+    <text x="248" y="395">... và còn tiếp diễn</text>
+  </g>
+
+  <!-- compass -->
+  <g transform="translate(60,360)">
+    <circle r="26" fill="none" stroke="#DCCBA6" stroke-width="1.5"/>
+    <line x1="0" y1="-20" x2="0" y2="20" stroke="#7A2E2E" stroke-width="2"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#7A2E2E" stroke-width="1"/>
+    <text x="-4" y="-28" font-family="Manrope, sans-serif" font-size="12" fill="#1B2A4A">B</text>
+  </g>
+</svg>
